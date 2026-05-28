@@ -1,0 +1,47 @@
+# Node
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bundler
+*.tgz
+
+# JetBrains
+.idea/
+
+# VSCode
+.vscode/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.cxx/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# Build outputs
+dist/
+build/
+
+# Misc
+*.keystore
+.env
+.env.local
+npm-debug.log
+yarn-error.log
+
+# Expo updates
+.expo/*

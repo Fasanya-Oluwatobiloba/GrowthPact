@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 3.0.0",
+    "appVersionSource": "app.json"
+  },
+  "build": {
+    "production": {
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}

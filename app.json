@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "GrowthPact",
+    "slug": "growthpact",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/82675bbb-50a3-49c2-bc09-f69e385fad82"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0D2B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.growthpact.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F0D2B"
+      },
+      "package": "com.growthpact.app"
+    },
+    "scheme": "growthpact",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "82675bbb-50a3-49c2-bc09-f69e385fad82"
+      }
+    }
+  }
+}
