@@ -3,15 +3,21 @@
     "version": ">= 3.0.0",
     "appVersionSource": "remote"
   },
+
   "build": {
     "production": {
+      "channel": "production",
       "distribution": "store",
+
       "android": {
         "buildType": "apk"
       }
     },
+
     "preview": {
+      "channel": "preview",
       "distribution": "internal",
+
       "android": {
         "buildType": "apk"
       }
